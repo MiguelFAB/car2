@@ -8,7 +8,7 @@ greencar_width = 75;
 greencar_height = 100;
 greencar_x = 5;
 greencar_y = 225;
-
+ 
 function add() {
     imgBackground = new Image();
     imgBackground.onload = uploadBackground;
