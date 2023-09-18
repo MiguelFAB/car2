@@ -12,7 +12,7 @@ greencar_y = 225;
 function add() {
     imgBackground = new Image();
     imgBackground.onload = uploadBackground;
-    imgBackground.src = backgroundImage ;  // Corrigido para backgroundImage
+    imgBackground.src = backgroundImage; 
     
     imgRover = new Image();
     imgRover.onload = uploadGreenCar;
