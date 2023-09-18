@@ -1,7 +1,7 @@
  var canvas = document.getElementById("meuCanvas");
  var caneta = canvas.getContext("2d");
 
-backgroundImage = "parkingLot.jpg";
+background_Image = "parkingLot.jpg";
 greencarImage = "car2.png";
 
 greencar_width = 75;
@@ -12,7 +12,7 @@ greencar_y = 225;
 function add() {
     imgBackground = new Image();
     imgBackground.onload = uploadBackground;
-    imgBackground.src = backgroundImage; 
+    imgBackground.src = background_Image; 
     
     imgRover = new Image();
     imgRover.onload = uploadGreenCar;
